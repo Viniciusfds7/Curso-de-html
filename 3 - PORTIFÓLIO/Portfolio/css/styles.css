@@ -158,6 +158,9 @@ body {
 	margin-right: 10px;
 }
 
+
+/* PORTIFÓLIO*/
+
 .miniatura{
 
 	 width: 300px;
@@ -167,7 +170,8 @@ body {
 	 margin-bottom: 15px;
 	 background-size: contain;
 	 overflow: hidden;
-	background-repeat: ;
+	background-repeat: no-repeat;
+	background-size:
 
 }
 
@@ -178,10 +182,12 @@ body {
 	text-decoration: none;
 }
 
+/* CERTIFICADOS*/
+
 .miniatura1 {
 
-	 width: 300px;
-	 height: 300px;
+	 width: 220px;
+	 height: 150px;
 	 display: inline-block;
 	 margin-right: 15px;
 	 margin-bottom: 15px;
@@ -197,6 +203,12 @@ body {
 	text-decoration: none;
 }
 
+/* FIM CERTIFICADOS*/
+
+
+
+
+/* PORTIFÓLIO*/
 
 .blackbox {
 	width: 100%;
@@ -233,14 +245,55 @@ body {
 	
 }
 
+/* CERTIFICADOS*/
+
+.blackbox1 {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0;
+	padding-top: 50px;
+}
+
+.blackbox1:hover {
+
+	opacity: 0.6;
+}
+
+
+.blackboxtext1 {
+
+	text-align: center;
+}
+
+.blackboxtext1 h1 {
+	font-size: 16px;
+	color: #FF8811;
+	text-transform: uppercase;
+	margin-top: 0px;
+
+}
+
+.blackboxtext1 h2 {
+
+	text-transform: none;
+	font-weight: 50px;
+	margin-top: 0px;
+	
+}
+
+/* FIM CERTIFICADOS*/
+
+
+
 .foto-trabalhos {
-	display: inline-block;
+	display: ;
 	width: 100%;
 }
 
 .foto-trabalhos2 {
 
-	display: inline-block;
+	display: ;
 	width: 40%;
 	float: left;
 	margin-right: 20px;
@@ -254,7 +307,13 @@ body {
 
 .foto-trabalhos3 img {
 	
-	display: inline-block;
-	width: 33%;
-	margin-bottom: ;
+	display: list-item;
+	width: 50%;
+	margin-bottom: 50px;
+}
+
+.foto-trabalhos3 h3 {
+	
+	font-size: 18px;
+	text-transform: uppercase;
 }
