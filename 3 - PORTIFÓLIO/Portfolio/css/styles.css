@@ -254,6 +254,18 @@ body {
 	display: inline-block;
 }
 
+.caminho a {
+	color: gray;
+	text-transform: none;
+	text-decoration: none;
+}
+
+.caminho a:hover{
+	color: #FF8811;
+}
+
+
+
 .social-img{
 
 	width: 40px;
